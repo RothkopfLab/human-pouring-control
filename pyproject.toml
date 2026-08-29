@@ -1,0 +1,24 @@
+[project]
+name = "human-pouring-control"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipywidgets>=8.1.8",
+    "jax>=0.10.2",
+    "jaxlib>=0.10.2",
+    "jupyter>=1.1.1",
+    "nioc",
+    "numpy>=2.4.6",
+    "pysindy==2.0.0",
+    "requests>=2.34.2",
+    "scikit-learn==1.7.2",
+    "scipy==1.16.2",
+    "seaborn>=0.13.2",
+    "statsmodels==0.14.6",
+    "tqdm>=4.70.0",
+]
+
+[tool.uv.sources]
+nioc = { git = "https://github.com/RothkopfLab/nioc-pouring" }
