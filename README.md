@@ -43,8 +43,23 @@ uv run jupyter lab
 
 Open `behavioural_plots.ipynb` or `model_plots.ipynb` and run.
 
+## Raw Data Playback
+
+![Pouring playback demo](readme_assets/pouring_raw_data_demo.gif)
+
+For replaying and visualizing the raw mocap, scale, and gaze data, see
+[`pouring_data_playback`](https://github.com/RothkopfLab/pouring_data_playback).
+
+
 ## Citation
 
-```
-TBD
+```bibtex
+@article{midlagajni2026pouring,
+  title={How to pour a cup of coffee},
+  author={Midlagajni, Niteesh and Fleming, Roland W. and Rothkopf, Constantin A.},
+  journal={bioRxiv},
+  year={2026},
+  doi={10.64898/2026.08.26.746627},
+  url={https://www.biorxiv.org/content/10.64898/2026.08.26.746627v1}
+}
 ```
